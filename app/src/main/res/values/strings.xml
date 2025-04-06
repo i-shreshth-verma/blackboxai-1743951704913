@@ -1,0 +1,30 @@
+<resources>
+    <!-- Existing strings -->
+    <string name="app_name">ClinicApp</string>
+    
+    <!-- Doctor booking strings -->
+    <string name="booking_for_doctor">Booking appointment with %s</string>
+    <string name="patient_information">Patient Information</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="appointment_details">Appointment Details</string>
+    <string name="appointment_type">Appointment Type</string>
+    <string name="general_checkup">General Checkup</string>
+    <string name="follow_up">Follow-up Visit</string>
+    <string name="emergency">Emergency</string>
+    <string name="date_and_time">Date and Time</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="select_symptoms">Select Symptoms (if any)</string>
+    <string name="fever">Fever</string>
+    <string name="cough">Cough</string>
+    <string name="headache">Headache</string>
+    <string name="other">Other</string>
+    <string name="book_appointment">Book Appointment</string>
+    
+    <!-- Error messages -->
+    <string name="error_empty_name">Please enter your name</string>
+    <string name="error_empty_phone">Please enter your phone number</string>
+    <string name="error_select_appointment_type">Please select appointment type</string>
+    <string name="booking_successful">Appointment booked successfully!</string>
+</resources>
