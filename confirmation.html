@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Confirmed | MediCare</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation (same as index.html) -->
+    <nav class="bg-blue-600 text-white p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold">MediCare</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="hover:text-blue-200">Home</a>
+                <a href="doctors.html" class="hover:text-blue-200">Doctors</a>
+                <a href="book-appointment.html" class="hover:text-blue-200">Book Appointment</a>
+                <a href="clinic-info.html" class="hover:text-blue-200">Clinic Info</a>
+            </div>
+            <button class="md:hidden">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Confirmation Section -->
+    <section class="py-16 container mx-auto">
+        <div class="text-center mb-12">
+            <h1 class="text-3xl font-bold text-gray-800">Appointment Confirmed!</h1>
+            <p class="text-gray-600 mt-2">Your appointment has been successfully scheduled</p>
+        </div>
+
+        <div class="confirmation-card bg-white p-8 rounded-lg shadow-md">
+            <div class="text-center mb-6">
+                <i class="fas fa-check-circle text-green-500 text-6xl mb-4"></i>
+                <h2 class="text-2xl font-bold">Thank You!</h2>
+            </div>
+
+            <div class="space-y-4">
+                <div class="flex justify-between border-b pb-2">
+                    <span class="font-semibold">Confirmation Number:</span>
+                    <span id="confirmation-number">MC-2023-12345</span>
+                </div>
+                <div class="flex justify-between border-b pb-2">
+                    <span class="font-semibold">Doctor:</span>
+                    <span id="doctor-name">Dr. Sarah Johnson</span>
+                </div>
+                <div class="flex justify-between border-b pb-2">
+                    <span class="font-semibold">Date:</span>
+                    <span id="appointment-date">November 15, 2023</span>
+                </div>
+                <div class="flex justify-between border-b pb-2">
+                    <span class="font-semibold">Time:</span>
+                    <span id="appointment-time">10:30 AM</span>
+                </div>
+                <div class="flex justify-between border-b pb-2">
+                    <span class="font-semibold">Patient Name:</span>
+                    <span id="patient-name">John Doe</span>
+                </div>
+            </div>
+
+            <div class="mt-8 text-center">
+                <p class="mb-4">We've sent the appointment details to your email.</p>
+                <a href="index.html" class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">Back to Home</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
